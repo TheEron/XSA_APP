@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<flowgraph:ContainerNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="d1d38037b8fdd63a234de04f6464c2e5" name="mydemofg" runtimeBehavior="BATCH_TASK">
+<flowgraph:ContainerNode xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:version="2.0" xmi:id="d1d38037b8fdd63a234de04f6464c2e5" name="mydemofg" runtimeBehavior="BATCH_TASK">
   <annotations key="sap.afm.layout" xmi:id="6b789b27b79d8d8a63b286f79ecd4aac">
     <annotations xmi:id="5db68b512658c640e7bd7096b98107c6" key="x" value="10">
     </annotations>
@@ -11,8 +11,7 @@
     </annotations>
   </annotations>
   <annotations xmi:id="e4cf25fcd3e748da54d187de8287cde2" key="sap.afm.palette">
-    <annotations xmi:id="21d363ad6909a88b849cf2fc4c27919b" key="additions" value="">
-    </annotations>
+    <annotations xmi:id="21d363ad6909a88b849cf2fc4c27919b" key="additions" value=""/>
   </annotations>
   <annotations xmi:id="a90b670a6deefa6321acaf39394df232" key="sap.afm.nodeType" value="ContainerNode">
   </annotations>
@@ -111,8 +110,7 @@
     </annotations>
     <outputs xmi:id="0ae3b50aab96c6eae1722f9eacf6742b" name="DataSource">
       <attributes xmi:id="665883fe0044020b72c3e2159cde9bfb" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="fefe32bf7b47c8b7cd0c777d28eb3364" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="fefe32bf7b47c8b7cd0c777d28eb3364" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="357f6012b4bde9f06c14de6fc1c1f208" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -147,8 +145,7 @@
     </annotations>
     <outputs xmi:id="b2f70216f1ceae0e8e087276b47f1323" name="DataSource_1">
       <attributes xmi:id="c57dfa4ad2b51fd6c6022a2d8fa7da0b" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="01fc0aaae656b40ca3a1b404974b3c93" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="01fc0aaae656b40ca3a1b404974b3c93" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="d3ccbac3930d3bb864cfe168418e0300" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -171,8 +168,7 @@
     </annotations>
     <inputs xmi:id="381ebaa702c69c7c31b0aed447a96dff" name="Union_IN" kind="TABLE">
       <attributes xmi:id="e14779a6ba5311ae387081b95c8568f3" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="4142267f36a08c17aa390de430a7f522" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="4142267f36a08c17aa390de430a7f522" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="3a1f8a2af481e60bf5b3ecc207e72f99" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -183,8 +179,7 @@
     </inputs>
     <inputs xmi:id="f0d45eb173f9cc3958858d79c361661f" name="Union_IN_1">
       <attributes xmi:id="33c52e764578cda89f392c599eab9e6e" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="f6d792e7663b916618dbad2d54100f99" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="f6d792e7663b916618dbad2d54100f99" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="b733f553814d04d2be554457438cc234" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -195,8 +190,7 @@
     </inputs>
     <outputs xmi:id="d4f4abe11b5e4cbc7d0cadc37542fccb" name="Union_OUT" kind="TABLE">
       <attributes xmi:id="3856cc15065b2da9721b9abc453ebd96" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="e36db61ea746e910e6faa9a5445c41d9" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="e36db61ea746e910e6faa9a5445c41d9" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="61ce3218e0e2e7ef3770ea1bf2c9614e" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -253,8 +247,7 @@
         </annotations>
       </annotations>
       <annotations key="sideEffectData">
-        <annotations key="level" value="none">
-        </annotations>
+        <annotations key="level" value="none"/>
       </annotations>
     </annotations>
     <inputs xmi:id="2d5632e1028ee42bebfd31e8e6428c44" name="Cleanse_IN" kind="TABLE">
@@ -265,22 +258,18 @@
         </annotations>
       </attributes>
       <attributes xmi:id="9288269f27c6dd87ed08c787a72731cc" name="FNAME" type="NVARCHAR" nullable="true" length="20" mappedName="PERSON">
-        <annotations key="sap.im.contentType" value="NAME">
-        </annotations>
+        <annotations key="sap.im.contentType" value="NAME"/>
       </attributes>
       <attributes xmi:id="d370309024e4ff3649f8c4e8d6d83923" name="LNAME" type="NVARCHAR" nullable="true" length="20">
-        <annotations key="sap.im.contentType" value="NAME">
-        </annotations>
+        <annotations key="sap.im.contentType" value="NAME"/>
       </attributes>
       <attributes xmi:id="94a9d5623d22b653ec3a25ff61afa39c" name="ROLE" type="NVARCHAR" nullable="true" length="20">
-        <annotations key="sap.im.contentType" value="UNKNOWN">
-        </annotations>
+        <annotations key="sap.im.contentType" value="UNKNOWN"/>
       </attributes>
     </inputs>
     <outputs xmi:id="1b525b1d26deef244b171290751c252a" name="Cleanse" kind="TABLE">
       <attributes xmi:id="2f1265971b0c14a4035731b385bc8fb3" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="f9150950224cf4bcb908e8b17698c4fa" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="f9150950224cf4bcb908e8b17698c4fa" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="134467807a2097e95d1f4ed227c342ae" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -315,8 +304,7 @@
     </annotations>
     <inputs xmi:id="57a4320c4bb52fd4fb0bf57f1fbd278a" name="Case_IN" kind="TABLE">
       <attributes xmi:id="3de7b3e38da50dbdb84b6c3eda344244" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="f3ab3a380606bd181e736d8f9940e3f0" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="f3ab3a380606bd181e736d8f9940e3f0" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="e2813e9ca15e73c39b6cf76b3fc85f74" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -329,8 +317,7 @@
     </inputs>
     <outputs xmi:id="3ebbdbd5e04d9d9b17920702a759ea8b" name="Case_Others" kind="TABLE">
       <attributes xmi:id="75d3b06c06fba8e3739edf242a16baef" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="c7452a26f313ca405fd2808d10ee24b6" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="c7452a26f313ca405fd2808d10ee24b6" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="a56377e5769dc98edd41b30bf1ddc477" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -343,8 +330,7 @@
     </outputs>
     <outputs xmi:id="0a79521ee886e390077cbd19786b2d31" name="Case_GenderFound">
       <attributes xmi:id="0e45ea5270c2024e0455c5d3c3d7a787" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="e9bd63826fe2d1925a1171ec33dcdb2c" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="e9bd63826fe2d1925a1171ec33dcdb2c" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="e56b256f368a375515f46c68b493ae50" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -405,8 +391,7 @@
     </annotations>
     <inputs xmi:id="9bbbd5eff193c31afc6915e974c6df96" name="DataTarget">
       <attributes xmi:id="6fbbb472230fdb6bde97c2e68cc95c5f" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="cf888c90ce0de329a5458f1be27515a5" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="cf888c90ce0de329a5458f1be27515a5" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="9fa8bedbec7ca1dc495572e907e45086" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>
@@ -441,8 +426,7 @@
     </annotations>
     <inputs xmi:id="26b1d1252a4e8025b8fe3400edc267fa" name="DataTarget_1">
       <attributes xmi:id="8601dc00ddcd446a7e60aa61f25331b8" name="EMP_ID" type="INTEGER" nullable="false" length="10">
-        <annotations xmi:id="74f7078ec1aa072d4f65968e0e34b300" key="sap.im.primaryKey" value="true">
-        </annotations>
+        <annotations xmi:id="74f7078ec1aa072d4f65968e0e34b300" key="sap.im.primaryKey" value="true"/>
       </attributes>
       <attributes xmi:id="fdc9ad2a718a7e4ed6ab28cbc47daa56" name="FNAME" type="NVARCHAR" nullable="true" length="20">
       </attributes>

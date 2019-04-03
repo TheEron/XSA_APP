@@ -9,8 +9,17 @@ modules:
    requires:
     - name: hdi-container
 
+
+ 
+
 resources:
  - name: hdi-container
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
+
+ - name: hdi-container_2
+   properties:
+      hdi-container-name_2: ${service-name}
+   type: com.sap.xs.hdi-container
+
