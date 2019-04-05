@@ -1,25 +1,32 @@
 namespace XSA_APP.myhdbmod;
 
 context mycds {
-	entity employees {
-      key EMP_ID : Integer not null;
-	      FNAME : String(20);
-	      LNAME : String(20);
-	      ROLE : String(20);
-   };
-   
-    entity more_employees {
-      key EMP_ID : Integer not null;
-      FNAME : String(20);
-      LNAME : String(20);
-      ROLE : String(20);
-   };
-   
-    entity facts {
-      EMP_ID : Integer not null;
-      TEAM_ID : Integer;
-      DATE : LocalDate;
-      REVENUE_EARNED : Integer;
-   };
+    entity employees {
+        key EMP_ID : Integer not null;
+            FNAME  : String(20);
+            LNAME  : String(20);
+            ROLE   : String(20);
+    };
 
+    entity more_employees {
+        key EMP_ID : Integer not null;
+            FNAME  : String(20);
+            LNAME  : String(20);
+            ROLE   : String(20);
+    };
+
+    entity facts {
+        EMP_ID         : Integer not null;
+        TEAM_ID        : Integer;
+        DATE           : LocalDate;
+        REVENUE_EARNED : Integer;
+    };
+    
+	entity employees_hist {
+        	SURR_ID : Integer not null;
+        	EMP_ID : Integer not null;
+            FNAME  : String(20);
+            LNAME  : String(20);
+            ROLE   : String(20);
+    };
 };

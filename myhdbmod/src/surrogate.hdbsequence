@@ -1,0 +1,3 @@
+SEQUENCE "XSA_APP.myhdbmod::surrogate"
+RESET BY SELECT IFNULL(MAX(SURR_ID), 0) + 1 
+FROM "XSA_APP.myhdbmod::mycds.employees_hist"
