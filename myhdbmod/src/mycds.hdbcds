@@ -23,10 +23,15 @@ context mycds {
     };
     
 	entity employees_hist {
-        	SURR_ID : Integer not null;
-        	EMP_ID : Integer not null;
+        	key SURR_ID : Integer not null;
+        	key EMP_ID : Integer not null;
             FNAME  : String(20);
             LNAME  : String(20);
             ROLE   : String(20);
+            CHANGE_TYPE : String(1);
+            CHANGE_TIME : UTCTimestamp;
+            CURRENTFLAG : String(1);
+            VALIDFROM : LocalDate;
+            VALIDTO : LocalDate;
     };
 };
