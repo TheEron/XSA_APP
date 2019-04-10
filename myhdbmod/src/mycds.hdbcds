@@ -34,4 +34,16 @@ context mycds {
             VALIDFROM : LocalDate;
             VALIDTO : LocalDate;
     };
+    
+    entity team {
+        team_ID             : Integer not null;
+        team                : String(20);
+        streetnumber        : Integer;
+        streetname          : String(20);
+        locality            : String(20);
+        state               : String(2);
+        zipcode             : String(5);
+        country             : String(2);
+  };
+
 };

@@ -127,9 +127,9 @@
   </nodes>
   <nodes xmi:id="e3a22e64f9586d0d0bb25fbbf190b82b" xsi:type="flowgraph:DataNode" name="mycds_employees_hist" truncateTable="false" catalogObjectName="XSA_APP.myhdbmod::mycds.employees_hist" type="DATABASE_TABLE" dataLayout="COLUMN">
     <annotations key="sap.afm.layout" xmi:id="264fcbd313be3ea2a374bc3a48ff69c9">
-      <annotations xmi:id="3e16486f86ec2a2ef5d4ce9483353f5e" key="x" value="903">
+      <annotations xmi:id="3e16486f86ec2a2ef5d4ce9483353f5e" key="x" value="692">
       </annotations>
-      <annotations xmi:id="be34752cfc6db2341d8d39c14dfc4c42" key="y" value="132">
+      <annotations xmi:id="be34752cfc6db2341d8d39c14dfc4c42" key="y" value="141">
       </annotations>
       <annotations xmi:id="3569ac478b1514ae2dec7e0911ed944e" key="width" value="152.3291015625">
       </annotations>
@@ -146,17 +146,17 @@
     </annotations>
     <annotations xmi:id="d9589bafa540ad2e5654fc010b3a4782" key="sap.afm.displayName" value="Data Target">
     </annotations>
-    <annotations xmi:id="c5ed8feef490009008df0a477806f2c1" key="columns" value="[{&quot;name&quot;:&quot;SURR_ID&quot;,&quot;type&quot;:&quot;INTEGER&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;94f556eb6274a70849ac85c756c9344c&quot;},{&quot;name&quot;:&quot;EMP_ID&quot;,&quot;type&quot;:&quot;INTEGER&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;c7455f71cb8a8d494e842e664f064112&quot;},{&quot;name&quot;:&quot;FNAME&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;0433a8316c51d186306d2357423da3cb&quot;},{&quot;name&quot;:&quot;LNAME&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;2fd26a806d933e17efedbe0d37d945d5&quot;},{&quot;name&quot;:&quot;ROLE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;0158d121f45c0b2e90d1b0e8deb78285&quot;},{&quot;name&quot;:&quot;CHANGE_TYPE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;1fdfa5e518886884c70a8236eaabf64d&quot;},{&quot;name&quot;:&quot;CHANGE_TIME&quot;,&quot;type&quot;:&quot;TIMESTAMP&quot;,&quot;length&quot;:27,&quot;scale&quot;:7,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;3bfb8ac69170e2a5f823688739cf587f&quot;}]">
+    <annotations xmi:id="c5ed8feef490009008df0a477806f2c1" key="columns" value="[{&quot;name&quot;:&quot;SURR_ID&quot;,&quot;type&quot;:&quot;INTEGER&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;94f556eb6274a70849ac85c756c9344c&quot;},{&quot;name&quot;:&quot;EMP_ID&quot;,&quot;type&quot;:&quot;INTEGER&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;c7455f71cb8a8d494e842e664f064112&quot;},{&quot;name&quot;:&quot;FNAME&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;0433a8316c51d186306d2357423da3cb&quot;},{&quot;name&quot;:&quot;LNAME&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;2fd26a806d933e17efedbe0d37d945d5&quot;},{&quot;name&quot;:&quot;ROLE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;0158d121f45c0b2e90d1b0e8deb78285&quot;},{&quot;name&quot;:&quot;CHANGE_TYPE&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;352ac82883b7346518cef532fe1d6c81&quot;},{&quot;name&quot;:&quot;CHANGE_TIME&quot;,&quot;type&quot;:&quot;TIMESTAMP&quot;,&quot;length&quot;:27,&quot;scale&quot;:7,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;40e006667b2fd57e742733e7373adc39&quot;},{&quot;name&quot;:&quot;CURRENTFLAG&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:1,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;5b55f85d4b198021922a11718134dbce&quot;},{&quot;name&quot;:&quot;VALIDFROM&quot;,&quot;type&quot;:&quot;DATE&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;dba438011568ae99ebea1f40256119ca&quot;},{&quot;name&quot;:&quot;VALIDTO&quot;,&quot;type&quot;:&quot;DATE&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;01d174e8aac442ab8ec54ad45840a17b&quot;}]">
     </annotations>
     <annotations xmi:id="3aebde2508ad6e39db3c3014fec5d7a0" key="sap.im.sequenceName" value="XSA_APP.myhdbmod::surrogate">
     </annotations>
     <annotations xmi:id="09c990ceb801c83d54c915658d06e40f" key="sap.im.keyGenerationAttribute" value="SURR_ID">
     </annotations>
-    <annotations xmi:id="294a137c1f0ac15db4b2c3c2cdafa9c8" key="sap.im.writerType" value="insert">
-    </annotations>
     <annotations xmi:id="86f19fa057c90d4e776ba9415d661d86" key="sap.im.changeTypeAttribute" value="CHANGE_TYPE">
     </annotations>
     <annotations xmi:id="0f13094f2cc042b857665700e2a8a12c" key="sap.im.changeTimeAttribute" value="CHANGE_TIME">
+    </annotations>
+    <annotations xmi:id="5008127006890c6b0562e0c08a5c85a6" key="sap.im.writerType" value="insert">
     </annotations>
     <inputs xmi:id="27773b3852e9a2ae15d2c5d033fc58a3" name="mycds_employees_hist" kind="TABLE">
       <attributes xmi:id="94f556eb6274a70849ac85c756c9344c" name="SURR_ID" type="INTEGER" nullable="false" length="10">
@@ -179,9 +179,15 @@
         <annotations xmi:id="b015c6fdbb48f8fbe471113c228c8e6a" key="sap.im.primaryKey" value="false">
         </annotations>
       </attributes>
-      <attributes xmi:id="1fdfa5e518886884c70a8236eaabf64d" name="CHANGE_TYPE" type="NVARCHAR" nullable="true" length="1">
+      <attributes xmi:id="352ac82883b7346518cef532fe1d6c81" name="CHANGE_TYPE" type="NVARCHAR" nullable="true" length="1">
       </attributes>
-      <attributes xmi:id="3bfb8ac69170e2a5f823688739cf587f" name="CHANGE_TIME" type="TIMESTAMP" nullable="true" length="27" scale="7">
+      <attributes xmi:id="40e006667b2fd57e742733e7373adc39" name="CHANGE_TIME" type="TIMESTAMP" nullable="true" length="27" scale="7">
+      </attributes>
+      <attributes xmi:id="5b55f85d4b198021922a11718134dbce" name="CURRENTFLAG" type="NVARCHAR" nullable="true" length="1">
+      </attributes>
+      <attributes xmi:id="dba438011568ae99ebea1f40256119ca" name="VALIDFROM" type="DATE" nullable="true" length="10">
+      </attributes>
+      <attributes xmi:id="01d174e8aac442ab8ec54ad45840a17b" name="VALIDTO" type="DATE" nullable="true" length="10">
       </attributes>
     </inputs>
   </nodes>

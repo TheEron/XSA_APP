@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowgraph:ContainerNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="fe73bcb814312227cb20af876748ab31" name="geocode" runtimeBehavior="BATCH_TASK">
+  <annotations key="sap.afm.layout" xmi:id="3efb8e6315a0f26a405ea2bfa3ce9485">
+    <annotations xmi:id="683fbb5e8fecbae7795f048f60e6900d" key="x" value="10">
+    </annotations>
+    <annotations xmi:id="dd01f5c821a2baf4edd1ffe4ab56a4d1" key="y" value="10">
+    </annotations>
+    <annotations xmi:id="125c4517492099329dbbfcb22acc07ff" key="width" value="100">
+    </annotations>
+    <annotations xmi:id="09fe5e211164f1764753f8ab7a0e749e" key="height" value="84">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="0de448b642a5e33f5ba3f17402ca2f96" key="sap.afm.palette">
+    <annotations xmi:id="ac4d64b25cf115e15e373078655852f2" key="additions" value="">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="fe59881cbe0b3121836cffa9b36739ba" key="sap.afm.nodeType" value="ContainerNode">
+  </annotations>
+  <annotations xmi:id="19be359b88ed3adae4c9d4d8d94d9ccf" key="sap.afm.nodeInputs">
+  </annotations>
+  <annotations xmi:id="5191bfc4f89bb7182235fb34a4e9f33d" key="sap.afm.nodeOutputs">
+  </annotations>
+  <tableMappings xmi:id="05fcedc712e38d10da3bc5767e4ec931" source="d66e1128e82b0da974af55c068d6aeee" target="53ae7666cc22b992ab56d0c54f1b2406">
+    <attributeMappings xmi:id="51b3485754d9001968af8352d5453529" source="f90f607f6251736e3ada6eed20f6c300" target="15444d2ce79a066837ce4ca2b074ad25">
+    </attributeMappings>
+    <attributeMappings xmi:id="6545994c58eb791e9f624b3d22ddc059" source="264e7c4332b9a4640c47a930a512265c" target="388179ee9a8c031fa3c35339ada01d78">
+    </attributeMappings>
+    <attributeMappings xmi:id="647c14480aa6d465b61b292ab3c7bd44" source="623983f37a358bb8e38ca23b202cc214" target="3c123e3c2bf9edf10a2d7c96036e85dc">
+    </attributeMappings>
+    <attributeMappings xmi:id="ba3a131d9bce1e398307e1675953f6e4" source="8b0905d8dbfc07ca7a123fcdbc06a6fc" target="5cf705af9351a6d79b45052a41437613">
+    </attributeMappings>
+    <attributeMappings xmi:id="57166aa20658feaea8853761e0bbad7f" source="d9c83c1927714fb7f3b37c035d7ccb4e" target="9a44c53bd9db2c1998f9cea076fc6e1e">
+    </attributeMappings>
+    <attributeMappings xmi:id="2037e930f97937c7f5a29db0b79d5738" source="891d6d33b05881bfe351d3293548d029" target="e955ec3efc7984cd13286d92af4ad5bb">
+    </attributeMappings>
+    <attributeMappings xmi:id="ec994dcf185c6a84bca2da1e8adc151c" source="e7beb856bdb38bf2916c1e9d4616b97f" target="5026168669d98aaee455b8dce724e812">
+    </attributeMappings>
+    <attributeMappings xmi:id="d5037d9fafa9f9fa42adc59aa5ed0e1d" source="25bb3fdd9d45c51fe1a695a936f3c3c1" target="fb1198b43b1000e838cb861445096003">
+    </attributeMappings>
+  </tableMappings>
+  <tableMappings xmi:id="ed9be6326ee1391352d0fd4e83fdde1d" source="f5611cc27f99bbf640ef324448e7da68" target="2aee5d60a79e3dc7caca441118098bf9">
+    <attributeMappings xmi:id="6ffa2b51750b10c7c0394ea788155ec0" source="ef2c111a053452e2ce3f1c30ec287f11" target="c2dbdd5395e9eaed3cb3211191a7a1cd">
+    </attributeMappings>
+    <attributeMappings xmi:id="f9111c09ec1e6322ffb5b13dfcdc4868" source="10050a4ec7ce7922c5eddff43b6aeb61" target="32e011d7f589fdc46145f954a34887d9">
+    </attributeMappings>
+    <attributeMappings xmi:id="3a880dce0e7c438440f0b21df6cd941d" source="2f4fd61600f664839f801696d1a0b6b1" target="19ace88328f72cbb22350875769cd249">
+    </attributeMappings>
+    <attributeMappings xmi:id="159bb2fcb1ed07e3a5b7dde689b13c02" source="aae8e39c249c2c73b9f2d415a782b507" target="94f7c6967da63e77334d3acd8bf57808">
+    </attributeMappings>
+    <attributeMappings xmi:id="8d73f4bc6b63371d696377a3c1bccd18" source="dc305897b14605819e357c11ecc7acff" target="92fc864e289468def00a3a27ad1a878c">
+    </attributeMappings>
+    <attributeMappings xmi:id="c17216b25580c2adddda558460b94c22" source="af3e8e6de443f5e609215e0045b402b2" target="60db6365384bc8f161264dd665447b9e">
+    </attributeMappings>
+    <attributeMappings xmi:id="9e489db1a4e25e93c777e47552624316" source="fa361f3c5bf2aaa0cd640b1dc47d2456" target="bfd06fe22d46dc25f66f4f99b933e8a0">
+    </attributeMappings>
+    <attributeMappings xmi:id="eed9ea4bd852146c2e102582904955e2" source="0bac756ad65a671661d03061b4e00cea" target="e0998adda83840554f1fdf67c677ddea">
+    </attributeMappings>
+    <attributeMappings xmi:id="af9010b80bf640687694bf4cd0896699" source="28e8ba8f88afec7c3f2f1dad80bc5340" target="ba5e89a95e2726861719201a662a153d">
+    </attributeMappings>
+    <attributeMappings xmi:id="2ea0a88aa071b565a1692d8ae3f27092" source="90937e12c211c3ff3f6ad6ec43814e68" target="5fbc21bd1a58e1a983de7a1dabcca499">
+    </attributeMappings>
+    <attributeMappings xmi:id="e589e1ddb8e2e57cf024587726b87bc7" source="1f6948cc51521c0add5ef8989bcbfe91" target="db8a072da101873b31409297855d3967">
+    </attributeMappings>
+    <attributeMappings xmi:id="fc97cde643cd1bc28b1b4c209b573c4e" source="dd7eb8e998b3404c60576da9e869ee26" target="4c0225485ded570ae27e32e5c85955f6">
+    </attributeMappings>
+    <attributeMappings xmi:id="b6cd55f05dfef7bcb11bd7faca6735c6" source="3e802dc339638de432abd3f64efe44b0" target="130900718a942b1ac689e6e5e684ab31">
+    </attributeMappings>
+    <attributeMappings xmi:id="78ff8814e6e2db374ea590b2681ae211" source="5d1f0f0ca630d7806f177d4aa7c52be2" target="c6b95c0374564d85a164c23888e62c64">
+    </attributeMappings>
+    <attributeMappings xmi:id="c9ed14dc78846a1d7480928308c2c1c0" source="20d1215dba57dceecde1a99ceb74eca4" target="d44a1767de75bec08b2781da2abafac0">
+    </attributeMappings>
+  </tableMappings>
+  <nodes xmi:id="66b3cffe31fe612a96507f951e44399b" name="mycds_team" catalogObjectName="XSA_APP.myhdbmod::mycds.team" type="DATABASE_TABLE" xsi:type="flowgraph:DataNode" dataLayout="COLUMN">
+    <annotations key="sap.afm.layout" xmi:id="5e071077dc5f53e8b3cf2c5a4ea79a23">
+      <annotations xmi:id="8749b95ddd0ee70b42f68063c660ec3d" key="x" value="143">
+      </annotations>
+      <annotations xmi:id="8397bc4421bc85adebca2a9a08436c6e" key="y" value="114">
+      </annotations>
+      <annotations xmi:id="d1ec19c87aa8d90ea2b2b6089a71f5f0" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="c41470b74b006200e50beaef4cdf7158" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="246bff393ffdc9fb25ec7e41647e9e87" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="9f07a4e3aaf2ca2fd42f10dd66338ffd" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="66aa1dd4f6438a55e1179b1719b77a9b" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="0d651a7d0e1131b6d2ccb61e267d4027" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="a3eee45b51b8f98e1541d0ba3930925c" key="sap.afm.displayName" value="Data Source">
+    </annotations>
+    <annotations xmi:id="f5ef0c02a20b94cfc79d2dfebcb54d74" key="columns" value="[{&quot;name&quot;:&quot;team_ID&quot;,&quot;type&quot;:&quot;INTEGER&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;id&quot;:&quot;f90f607f6251736e3ada6eed20f6c300&quot;},{&quot;name&quot;:&quot;team&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;264e7c4332b9a4640c47a930a512265c&quot;},{&quot;name&quot;:&quot;streetnumber&quot;,&quot;type&quot;:&quot;INTEGER&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;623983f37a358bb8e38ca23b202cc214&quot;},{&quot;name&quot;:&quot;streetname&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;8b0905d8dbfc07ca7a123fcdbc06a6fc&quot;},{&quot;name&quot;:&quot;locality&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:20,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;d9c83c1927714fb7f3b37c035d7ccb4e&quot;},{&quot;name&quot;:&quot;state&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:2,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;891d6d33b05881bfe351d3293548d029&quot;},{&quot;name&quot;:&quot;zipcode&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:5,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;e7beb856bdb38bf2916c1e9d4616b97f&quot;},{&quot;name&quot;:&quot;country&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:2,&quot;nullable&quot;:&quot;true&quot;,&quot;id&quot;:&quot;25bb3fdd9d45c51fe1a695a936f3c3c1&quot;}]">
+    </annotations>
+    <outputs xmi:id="d66e1128e82b0da974af55c068d6aeee" name="mycds_team">
+      <attributes xmi:id="f90f607f6251736e3ada6eed20f6c300" name="team_ID" type="INTEGER" nullable="false" length="10">
+      </attributes>
+      <attributes xmi:id="264e7c4332b9a4640c47a930a512265c" name="team" type="NVARCHAR" nullable="true" length="20">
+      </attributes>
+      <attributes xmi:id="623983f37a358bb8e38ca23b202cc214" name="streetnumber" type="INTEGER" nullable="true" length="10">
+      </attributes>
+      <attributes xmi:id="8b0905d8dbfc07ca7a123fcdbc06a6fc" name="streetname" type="NVARCHAR" nullable="true" length="20">
+      </attributes>
+      <attributes xmi:id="d9c83c1927714fb7f3b37c035d7ccb4e" name="locality" type="NVARCHAR" nullable="true" length="20">
+      </attributes>
+      <attributes xmi:id="891d6d33b05881bfe351d3293548d029" name="state" type="NVARCHAR" nullable="true" length="2">
+      </attributes>
+      <attributes xmi:id="e7beb856bdb38bf2916c1e9d4616b97f" name="zipcode" type="NVARCHAR" nullable="true" length="5">
+      </attributes>
+      <attributes xmi:id="25bb3fdd9d45c51fe1a695a936f3c3c1" name="country" type="NVARCHAR" nullable="true" length="2">
+      </attributes>
+    </outputs>
+  </nodes>
+  <nodes xmi:id="6aecb5fb2bd5823111a2cd85c6482212" xsi:type="flowgraph:GeocodeNode" name="Geocode">
+    <annotations key="sap.afm.layout" xmi:id="de7e9daccfa37509e064af7eca0f910f">
+      <annotations xmi:id="6abe52b76d0dc9cded37924445ea9cc2" key="x" value="368">
+      </annotations>
+      <annotations xmi:id="820eb858f564e4a97a34d086ec0bc759" key="y" value="114">
+      </annotations>
+      <annotations xmi:id="7f53b64fd7beecd5570bde348a66e6c8" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="7d2d3a46752650e97bc36cca03a0ef9c" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="b0d1e3b922ebc9a0732a770a53fd2a7b" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="840cda860765e88323f62aac25285cbd" key="sap.afm.displayName" value="Geocode">
+    </annotations>
+    <annotations xmi:id="0c17215ca257a4ab79d81e1bf5c27ba9" key="sap.afm.nodeType" value="GeocodeNode">
+    </annotations>
+    <annotations xmi:id="2806d757c8a1e8faaa284595eba787c7" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="9bbb2dad8bc0fe691e44e845131605b2" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations key="sap.im.propertyGroups">
+      <annotations key="countryIdentification">
+        <annotations key="mode" value="assign">
+        </annotations>
+        <annotations key="defaultCountryName" value="NONE">
+        </annotations>
+      </annotations>
+      <annotations key="assignmentLevel">
+        <annotations key="assign" value="best"/>
+      </annotations>
+      <annotations key="sideEffectData">
+        <annotations key="level" value="none">
+        </annotations>
+      </annotations>
+    </annotations>
+    <inputs xmi:id="53ae7666cc22b992ab56d0c54f1b2406" name="Geocode_IN" kind="TABLE">
+      <attributes xmi:id="15444d2ce79a066837ce4ca2b074ad25" name="team_ID" type="INTEGER" nullable="false" length="10">
+        <annotations key="sap.im.contentType" value="UNKNOWN">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="388179ee9a8c031fa3c35339ada01d78" name="team" type="NVARCHAR" nullable="true" length="20">
+        <annotations key="sap.im.contentType" value="UNKNOWN">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="3c123e3c2bf9edf10a2d7c96036e85dc" name="streetnumber" type="INTEGER" nullable="true" length="10" mappedName="MIXED">
+        <annotations key="sap.im.contentType" value="ADDRESS_PRIMARY_NUMBER">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="5cf705af9351a6d79b45052a41437613" name="streetname" type="NVARCHAR" nullable="true" length="20" mappedName="MIXED2">
+        <annotations key="sap.im.contentType" value="ADDRESS_PRIMARY_NAME">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="9a44c53bd9db2c1998f9cea076fc6e1e" name="locality" type="NVARCHAR" nullable="true" length="20" mappedName="LOCALITY">
+        <annotations key="sap.im.contentType" value="LOCALITY">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="e955ec3efc7984cd13286d92af4ad5bb" name="state" type="NVARCHAR" nullable="true" length="2" mappedName="REGION">
+        <annotations key="sap.im.contentType" value="REGION">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="5026168669d98aaee455b8dce724e812" name="zipcode" type="NVARCHAR" nullable="true" length="5" mappedName="POSTCODE">
+        <annotations key="sap.im.contentType" value="POSTCODE">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="fb1198b43b1000e838cb861445096003" name="country" type="NVARCHAR" nullable="true" length="2" mappedName="COUNTRY">
+        <annotations key="sap.im.contentType" value="COUNTRY">
+        </annotations>
+      </attributes>
+    </inputs>
+    <outputs xmi:id="f5611cc27f99bbf640ef324448e7da68" name="Geocode" kind="TABLE">
+      <attributes xmi:id="ef2c111a053452e2ce3f1c30ec287f11" name="ADDR_LATITUDE" type="DOUBLE" nullable="true" mappedName="ADDR_LATITUDE">
+      </attributes>
+      <attributes xmi:id="10050a4ec7ce7922c5eddff43b6aeb61" name="ADDR_LONGITUDE" type="DOUBLE" nullable="true" mappedName="ADDR_LONGITUDE">
+      </attributes>
+      <attributes xmi:id="2f4fd61600f664839f801696d1a0b6b1" name="ADDR_LATITUDE_LONGITUDE" type="ST_POINT" nullable="true" mappedName="ADDR_LATITUDE_LONGITUDE">
+      </attributes>
+      <attributes xmi:id="aae8e39c249c2c73b9f2d415a782b507" name="GEO_SIDE_OF_STREET" type="NVARCHAR" nullable="true" mappedName="GEO_SIDE_OF_STREET" length="1">
+      </attributes>
+      <attributes xmi:id="dc305897b14605819e357c11ecc7acff" name="POPULATION_CLASS" type="NVARCHAR" nullable="true" mappedName="POPULATION_CLASS" length="1">
+      </attributes>
+      <attributes xmi:id="af3e8e6de443f5e609215e0045b402b2" name="CENSUS_TRACT_BLOCK" type="NVARCHAR" nullable="true" mappedName="CENSUS_TRACT_BLOCK" length="11">
+      </attributes>
+      <attributes xmi:id="fa361f3c5bf2aaa0cd640b1dc47d2456" name="CENSUS_TRACT_BLOCK_GROUP" type="NVARCHAR" nullable="true" mappedName="CENSUS_TRACT_BLOCK_GROUP" length="11">
+      </attributes>
+      <attributes xmi:id="0bac756ad65a671661d03061b4e00cea" name="GOV_LOCALITY_CODE" type="NVARCHAR" nullable="true" mappedName="GOV_LOCALITY_CODE" length="5">
+      </attributes>
+      <attributes xmi:id="28e8ba8f88afec7c3f2f1dad80bc5340" name="GOV_REGION_CODE" type="NVARCHAR" nullable="true" mappedName="GOV_REGION_CODE" length="2">
+      </attributes>
+      <attributes xmi:id="90937e12c211c3ff3f6ad6ec43814e68" name="GOV_REGION2_CODE" type="NVARCHAR" nullable="true" mappedName="GOV_REGION2_CODE" length="3">
+      </attributes>
+      <attributes xmi:id="1f6948cc51521c0add5ef8989bcbfe91" name="METRO_STAT_AREA_CODE" type="NVARCHAR" nullable="true" mappedName="METRO_STAT_AREA_CODE" length="4">
+      </attributes>
+      <attributes xmi:id="dd7eb8e998b3404c60576da9e869ee26" name="MINOR_DIV_CODE" type="NVARCHAR" nullable="true" mappedName="MINOR_DIV_CODE" length="6">
+      </attributes>
+      <attributes xmi:id="3e802dc339638de432abd3f64efe44b0" name="STAT_AREA_CODE" type="NVARCHAR" nullable="true" mappedName="STAT_AREA_CODE" length="5">
+      </attributes>
+      <attributes xmi:id="5d1f0f0ca630d7806f177d4aa7c52be2" name="GEO_INFO_CODE" type="NVARCHAR" nullable="true" mappedName="GEO_INFO_CODE" length="4">
+      </attributes>
+      <attributes xmi:id="20d1215dba57dceecde1a99ceb74eca4" name="GEO_ASMT_LEVEL" type="NVARCHAR" nullable="true" mappedName="GEO_ASMT_LEVEL" length="3">
+      </attributes>
+    </outputs>
+    <tableMappings xmi:id="0156f87c747c47ab8892b08d75ff5302" source="53ae7666cc22b992ab56d0c54f1b2406" target="f5611cc27f99bbf640ef324448e7da68">
+      <attributeMappings/>
+    </tableMappings>
+  </nodes>
+  <nodes xmi:id="552f558ab55c3ad849915a351ea6f19c" xsi:type="flowgraph:DataNode" name="DataTarget" truncateTable="false" catalogObjectName="GeoCode" type="TEMPLATE_TABLE">
+    <annotations key="sap.afm.layout" xmi:id="0d395eeaf19f2562407ca1a0d2ccc44c">
+      <annotations xmi:id="15f664506e76d1bfb5a545350c99336d" key="x" value="579">
+      </annotations>
+      <annotations xmi:id="94b2ef518748782913dc93e00a9d7422" key="y" value="114">
+      </annotations>
+      <annotations xmi:id="2ea271302a17392aec2e9a89f855c8d5" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="0aca4114f1a01a8363eeb523aae6567e" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="65a4ac8f185c9c5d106df984507c94a0" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="ab4995b9a7173d2c57dfe15d0fa60ae8" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="65ed761354b24bcfdb50e8a2f2089fff" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="29d2bbcd5a257e5bb2d58aa9b19a3b93" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="3f0c826e384a914560e57636f219a5ee" key="sap.afm.displayName" value="Data Target">
+    </annotations>
+    <inputs xmi:id="2aee5d60a79e3dc7caca441118098bf9" name="DataTarget" kind="TABLE">
+      <attributes xmi:id="c2dbdd5395e9eaed3cb3211191a7a1cd" name="ADDR_LATITUDE" type="DOUBLE" nullable="true">
+      </attributes>
+      <attributes xmi:id="32e011d7f589fdc46145f954a34887d9" name="ADDR_LONGITUDE" type="DOUBLE" nullable="true">
+      </attributes>
+      <attributes xmi:id="19ace88328f72cbb22350875769cd249" name="ADDR_LATITUDE_LONGITUDE" type="ST_POINT" nullable="true">
+      </attributes>
+      <attributes xmi:id="94f7c6967da63e77334d3acd8bf57808" name="GEO_SIDE_OF_STREET" type="NVARCHAR" nullable="true" length="1">
+      </attributes>
+      <attributes xmi:id="92fc864e289468def00a3a27ad1a878c" name="POPULATION_CLASS" type="NVARCHAR" nullable="true" length="1">
+      </attributes>
+      <attributes xmi:id="60db6365384bc8f161264dd665447b9e" name="CENSUS_TRACT_BLOCK" type="NVARCHAR" nullable="true" length="11">
+      </attributes>
+      <attributes xmi:id="bfd06fe22d46dc25f66f4f99b933e8a0" name="CENSUS_TRACT_BLOCK_GROUP" type="NVARCHAR" nullable="true" length="11">
+      </attributes>
+      <attributes xmi:id="e0998adda83840554f1fdf67c677ddea" name="GOV_LOCALITY_CODE" type="NVARCHAR" nullable="true" length="5">
+      </attributes>
+      <attributes xmi:id="ba5e89a95e2726861719201a662a153d" name="GOV_REGION_CODE" type="NVARCHAR" nullable="true" length="2">
+      </attributes>
+      <attributes xmi:id="5fbc21bd1a58e1a983de7a1dabcca499" name="GOV_REGION2_CODE" type="NVARCHAR" nullable="true" length="3">
+      </attributes>
+      <attributes xmi:id="db8a072da101873b31409297855d3967" name="METRO_STAT_AREA_CODE" type="NVARCHAR" nullable="true" length="4">
+      </attributes>
+      <attributes xmi:id="4c0225485ded570ae27e32e5c85955f6" name="MINOR_DIV_CODE" type="NVARCHAR" nullable="true" length="6">
+      </attributes>
+      <attributes xmi:id="130900718a942b1ac689e6e5e684ab31" name="STAT_AREA_CODE" type="NVARCHAR" nullable="true" length="5">
+      </attributes>
+      <attributes xmi:id="c6b95c0374564d85a164c23888e62c64" name="GEO_INFO_CODE" type="NVARCHAR" nullable="true" length="4">
+      </attributes>
+      <attributes xmi:id="d44a1767de75bec08b2781da2abafac0" name="GEO_ASMT_LEVEL" type="NVARCHAR" nullable="true" length="3">
+      </attributes>
+    </inputs>
+  </nodes>
+</flowgraph:ContainerNode>

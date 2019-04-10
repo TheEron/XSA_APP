@@ -12,6 +12,13 @@ modules:
 
  
 
+
+ - name: db
+   type: hdb
+   path: db
+   requires:
+    - name: hdi_db
+
 resources:
  - name: hdi-container
    properties:
@@ -21,5 +28,11 @@ resources:
  - name: hdi-container_2
    properties:
       hdi-container-name_2: ${service-name}
+   type: com.sap.xs.hdi-container
+
+
+ - name: hdi_db
+   properties:
+      hdi-container-name_3: ${service-name}
    type: com.sap.xs.hdi-container
 
