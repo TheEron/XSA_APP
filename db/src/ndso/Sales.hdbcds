@@ -36,23 +36,11 @@ context Sales {
 context SalesOrderHeader {
     @DataStore.entityCategory : #ACTIVE_DATA
     entity active_data {
-        @DataStore.aggregation : #NOP
-        elem_1 : String(10) not null;
-
-        @DataStore.aggregation : #NOP
-        elem_1 : String(10) not null;
-
-        @DataStore.aggregation : #NOP
-        elem_2 : String(10) not null;
-
-        @DataStore.aggregation : #NOP
-        elem_3 : String(10) not null;
-
-        @DataStore.aggregation : #NOP
-        elem_4 : String(10) not null;
-
-        @DataStore.aggregation : #NOP
-        elem_5 : String(10) not null;
+            @DataStore.aggregation : #NOP
+        key SalesOrderID : Integer     not null;
+        
+        	@DataStore.aggregation : #NOP
+            CustomerName : String(100) not null;
     }
     technical configuration {
         group name DSO_1 group type "sap.dwf.dso" group subtype ACTIVE;
@@ -64,19 +52,10 @@ context SalesOrderHeader {
             technicalAttributes : inboundQueueAttributes not null;
 
             @DataStore.aggregation : #MOV
-            elem_1              : String(10)             not null;
+        key SalesOrderID        : Integer                not null;
 
             @DataStore.aggregation : #MOV
-            elem_2              : String(10)             not null;
-
-            @DataStore.aggregation : #MOV
-            elem_3              : String(10)             not null;
-
-            @DataStore.aggregation : #MOV
-            elem_4              : String(10)             not null;
-
-            @DataStore.aggregation : #MOV
-            elem_5              : String(10)             not null;
+            CustomerName        : String(100)            not null;
     }
     technical configuration {
         group name DSO_1 group type "sap.dwf.dso" group subtype QUEUE;
@@ -86,11 +65,8 @@ context SalesOrderHeader {
     entity change_log {
         key technicalKey        : changeLogKey;
             technicalAttributes : changeLogAttributes not null;
-            elem_1              : String(10)          not null;
-            elem_2              : String(10)          not null;
-            elem_3              : String(10)          not null;
-            elem_4              : String(10)          not null;
-            elem_5              : String(10)          not null;
+        key SalesOrderID        : Integer             not null;
+            CustomerName        : String(100)         not null;
     }
     technical configuration {
         group name DSO_1 group type "sap.dwf.dso" group subtype CHANGE_LOG;
